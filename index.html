@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://unpkg.com/feather-icons"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Formulário 5</title>
+</head>
+
+<body>
+  <div class="form-container">
+    <form class="form">
+      <h3 class="title">SIGN IN</h3>
+      <div class="icon-container user-container">
+        <i data-feather="user"></i>
+        <input type="text" placeholder="Username">
+      </div>
+      <div class="icon-container password-container">
+        <i data-feather="lock"></i>
+        <input type="text" placeholder="Password">
+      </div>
+      <div class="options">
+        <div class="checkbox">
+          <input type="checkbox" name="checkbox" id="checkbox">
+          <label for="checkbox">Remember me</label>
+        </div>
+        <a class="resetpass" href="http://www.google.com" target="_blank">
+          <p>Reset Password</p>
+        </a>
+      </div>
+      <input type="button" value="Sign In">
+      <p class="signin"> Or Sign in with</p>
+      <div class="social-medias">
+        <div class="facebook">
+          <i data-feather="facebook"></i>
+        </div>
+        <div class="gmail">
+          <i data-feather="mail"></i>
+        </div>
+        <div class="twitter">
+          <i data-feather="twitter"></i>
+        </div>
+      </div>
+      <hr>
+      <p class="not-account">Do not have an account? <a href="http://www.google.com">Sign Up now</a></p>
+    </form>
+  </div>
+  <script>
+    feather.replace()
+  </script>
+</body>
+
+</html>
