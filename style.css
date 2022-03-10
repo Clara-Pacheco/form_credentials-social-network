@@ -1,0 +1,214 @@
+body {
+  font-family: 'Amiko', sans-serif;
+  background-color:#d6cece;;
+}
+
+.form-container {
+  margin: 100px auto;
+  width: 400px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+.form {
+  padding: 20px;
+}
+
+.form-container .title {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  color: #3e3e3e;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.form-container .icon-container {
+  position: relative;
+}
+
+.form-container input {
+  width: 350px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #D1D1D1;
+  margin-bottom: 20px;
+  margin-left: 8px;
+  margin-right: 8px;
+  padding-left: 30px;
+}
+
+.form-container svg {
+  position: absolute;
+  left: 12px;
+  top: calc(50% - 24px);
+  color: #D1D1D1;
+} 
+
+.form-container .options {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-container .checkbox {
+  width: fit-content;
+}
+
+.form-container input[type="checkbox"] {
+  width: 12px;
+  height: 12px;
+  color: #9b9494;
+  
+}
+
+.form-container label[for="checkbox"] {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  color: #9b9494;
+  
+}
+
+.form-container .resetpass {
+  text-decoration: none;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  color: #9b9494;
+  margin-right: 8px;
+  
+}
+
+.form-container .resetpass:hover {
+  color: red;
+}
+
+.form-container input[type="button"] {
+ margin-top: 20px; 
+ background-color: red;
+ color: white;
+ border: 1px solid red;
+ font-size: 15px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 26px;
+ margin-bottom: 20px;
+ box-sizing: content-box;
+ padding: 0 15px;
+ height: 45px;
+ font-family: 'Amiko', sans-serif;
+
+}
+
+.form-container .signin {
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 20px;
+  color: #9b9494;
+}
+
+.form-container .social-medias {
+  display: flex;
+  justify-content: center;
+  vertical-align: center;
+  margin-bottom: 30px;
+  
+}
+
+.form-container .facebook {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: blue;
+  margin-left: 10px;
+  position: relative;
+
+} 
+
+.form-container .social-medias .facebook svg {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: calc(50% - 12px);
+  color: white;
+  stroke-width: 2px;
+  
+}
+
+
+.form-container .gmail {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 10px;
+  position: relative;
+
+} 
+
+.form-container .social-medias .gmail svg {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: calc(50% - 12px);
+  color: white;
+  stroke-width: 2px;
+  
+}
+
+.form-container .twitter {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(97, 97, 209);
+  margin-left: 10px;
+  position: relative;
+} 
+
+.form-container .social-medias .twitter svg {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: calc(50% - 12px);
+  color: white;
+  stroke-width: 2px;
+  
+}
+
+.form-container hr {
+  border-width: 0; 
+	height: 1px;
+	border-top-width: 1px;
+  border-color: #e0d5d5;
+  margin-bottom: 20px;
+}
+
+.form-container .not-account {
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 5px;
+  color: #9b9494;
+}
+
+.form-container .not-account a {
+  text-decoration: none;
+  color: red;
+}
+
+.form-container .not-account a:hover {
+  color: #6161D1;
+}
+
+
